@@ -1,0 +1,38 @@
+/**
+** TAAAAAAAAAAAAAAAANK Gradients
+**
+** v1.0a
+**
+** Made by Marc Guilmard (Toxicat)
+** created 16/09/2014
+** last edit ---
+**
+** In attempt to fix chrome issue #226753
+** https://code.google.com/p/chromium/issues/detail?id=226753
+** contact : guilma_p@epitech.eu
+** github : https://github.com/Toxicat
+**/
+
+.tank-gradient
+{
+	width:		100%;
+	height:		1500px;
+}
+
+.gradient-container
+{
+	width:		100%;
+	height:		100%;
+	position:	relative;
+	top:		0px;
+	left:		0px;
+	z-index:	-1000;
+}
+
+.gradient-element
+{
+	width:		100%;
+	position:	relative;
+	height:		1px;
+	z-index:	-1000;
+}
