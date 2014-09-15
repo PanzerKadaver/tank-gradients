@@ -1,11 +1,11 @@
 /**
 ** TAAAAAAAAAAAAAAAANK Gradients
 **
-** v1.0a
+** v1.0c
 **
 ** Made by Marc Guilmard (Toxicat)
 ** created 16/09/2014
-** last edit ---
+** last edit 16/09/2014
 **
 ** In attempt to fix chrome issue #226753
 ** https://code.google.com/p/chromium/issues/detail?id=226753
@@ -40,7 +40,7 @@ $(document).ready(function(){
 		var jq_g = $(g);
 		var topColor = g.dataset.topColor;
 		var bottomColor = g.dataset.bottomColor;
-		var height = jq_g.height();
+		var height = jq_g.innerHeight();
 		
 		var rDelta = (hexToRgb(bottomColor).r - hexToRgb(topColor).r) / (height - 1);
 		var gDelta = (hexToRgb(bottomColor).g - hexToRgb(topColor).g) / (height - 1);
